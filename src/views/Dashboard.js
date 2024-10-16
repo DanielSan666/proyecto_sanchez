@@ -84,6 +84,12 @@ function Dashboard() {
           
           
         </Row>
+        <div className="credits-ml-auto">
+            <div className="copyright">
+              &copy; {1900 + new Date().getFullYear()}, UTD{" "}
+              <i className="fa fa-heart heart" /> DERECHOS RESERVADOS DANIEL SANCHEZ
+            </div>
+          </div>
       </div>
     </>
   );
